@@ -5,7 +5,7 @@ Home: https://github.com/mjpost/sacrebleu
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Reference BLEU implementation that auto-downloads test sets and reports a version string to facilitate cross-lab comparisons
 
