@@ -1,5 +1,5 @@
 {% set name = "sacrebleu" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c7465ad7f997130414f8f9b28e17759051607ee18bf2f85644d2e67dd6ccb8a6
+  sha256: e8184f0d2ec45dd7ef0883fbce3976b2b7cf581e04d0854ac5f7eb394318b84b
 
 build:
   noarch: python
@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - typing
     - portalocker
 
