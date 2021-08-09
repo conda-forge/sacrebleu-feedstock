@@ -1,0 +1,13 @@
+diff --git a/setup.py b/setup.py
+index 85ff193..01a61fd 100755
+--- a/setup.py
++++ b/setup.py
+@@ -96,7 +96,7 @@ setup(
+     version=get_version(),
+     description=get_description(),
+     long_description_content_type='text/markdown',
+-    long_description=get_long_description(),
++    # long_description=get_long_description(),
+     url='https://github.com/mjpost/sacrebleu',
+     author='Matt Post',
+     author_email='post@cs.jhu.edu'
