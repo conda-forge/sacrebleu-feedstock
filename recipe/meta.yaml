@@ -24,6 +24,11 @@ requirements:
     - python >=3.6
     - typing
     - portalocker
+    - regex
+    - tabulate >=0.8.9
+    - numpy >=1.17
+    - colorama
+    # extras_require={'ja': ['mecab-python3==1.0.3', 'ipadic>=1.0,<2.0']},
 
 test:
   imports:
