@@ -1,5 +1,5 @@
 {% set name = "sacrebleu" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4d46915b4b684b95ba089364ca694ba17385e2ba5b482876df96a2b2094e43ee
+  sha256: 4bc62f66efc0a403cec5bd22e884399e4bd746404f41525e03c318222d4e83e1
   patches:
     - no_changelog.patch
 
