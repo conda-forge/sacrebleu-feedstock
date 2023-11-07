@@ -1,11 +1,11 @@
-About sacrebleu
-===============
+About sacrebleu-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sacrebleu-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mjpost/sacrebleu
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sacrebleu-feedstock/blob/main/LICENSE.txt)
 
 Summary: Reference BLEU implementation that auto-downloads test sets and reports a version string to facilitate cross-lab comparisons
 
