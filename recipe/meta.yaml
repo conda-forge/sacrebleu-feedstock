@@ -8,8 +8,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: e734b1e0baeaea6ade0fefc9d23bac3df50bf15775d8b78edc108db63654192a
-  patches:
-    - no_changelog.patch
+  # patches:
+  #   - no_changelog.patch
 
 build:
   noarch: python
