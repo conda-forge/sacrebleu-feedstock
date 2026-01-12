@@ -1,4 +1,4 @@
-{% set version = "2.5.1" %}
+{% set version = "2.6.0" %}
 
 package:
   name: sacrebleu
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sacrebleu/sacrebleu-{{ version }}.tar.gz
-  sha256: 1a088cc1c74ffaff0759c3191a85db09eecfa7a52e09be244e319d8d64e2fb11
+  sha256: 91499b6cd46138d95154fff1e863c2f9be57e82f0c719d8dd718d0006cf6c566
 
 build:
   noarch: python
